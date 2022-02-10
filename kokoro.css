@@ -1,0 +1,126 @@
+.logo {
+    width: 55px;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:780px){
+    .logo{
+        mi
+    }
+}
+
+.KOKORO{
+    font-size: 50px;
+    margin-top: 39px;
+    font-family: serif;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 25px;
+    margin-left: 650px;
+}
+
+.main-nav li{
+    margin-left: 36px;
+    margin-top: 58px;
+    font-family: serif;
+}
+
+.page-header{
+    display: flex;
+}
+
+
+
+
+.page-title{
+    font-size: 80px;
+    font-family: serif;
+    animation-name: bigger-font;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+}
+
+@keyframes bigger-font {
+    from {
+        font-size: 10px;
+    }
+    to {
+        font-size: 80px;
+    }
+}
+
+#menu{
+    background-image: url(./img/wngs5.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 36%;
+
+}
+
+.menu-content{
+    max-width: 400px;
+    margin-top: 55px;
+    text-align: center;
+    margin-left: 455px;
+}
+
+.work{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px ;
+    margin: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.item2{
+    margin-top: 240px;
+}
+
+.item6{
+    margin-top: 170px;
+}
+
+.item8{
+    margin-top: 210px;
+}
+
+.item9{
+    margin-left: 250px;
+}
+
+
+.contact button{
+    font-size: 30px;
+    padding: 10px;
+    background-color:white ;
+    border-radius: 90px;
+    font-family: serif;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    margin-top: 345px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: #5F7D7D
+}
+
+.footer{
+    text-align: center;
+    background-color:#5F7D7D ;
+    padding: 20px;
+    
+}
+
+.map{
+    display: flex;
+    margin: 30px;
+}
+
